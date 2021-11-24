@@ -11,7 +11,7 @@ import SwiftUI
 /// // is equivalent to
 /// textColor = DynamicColor(light: .black, dark: .white)
 /// ```
-public struct DynamicColor {
+public struct DynamicColor: Equatable {
 
   let lightModeColor: BaseColor
   let darkModeColor: BaseColor

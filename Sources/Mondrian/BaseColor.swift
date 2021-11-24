@@ -12,7 +12,7 @@ import UIKit
 /// // as well as
 /// white = BaseColor(red: 1, green: 1, blue: 1, alpha: 1)
 /// ```
-public struct BaseColor: ExpressibleByIntegerLiteral, ExpressibleByStringLiteral {
+public struct BaseColor: ExpressibleByIntegerLiteral, ExpressibleByStringLiteral, Equatable {
 
   let red: Double
   let green: Double
